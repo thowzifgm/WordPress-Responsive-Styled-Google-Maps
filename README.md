@@ -3,7 +3,7 @@ Numerous markers on the same map and multiple maps on a page are both supported 
 
 This plugin creates easy-to-use Google maps for WordPress. Using an easy-to-understand shortcode, responsive and stylish maps are produced. 50 vibrant map styles are available, as well as a shortcode builder. 
 
-![WordPress-Responsive-Styled-Google-Maps](http://url/to/img.png](https://raw.githubusercontent.com/thowzifgm/WordPress-Responsive-Styled-Google-Maps/main/Screenshot.png)
+![alt text](https://raw.githubusercontent.com/thowzifgm/WordPress-Responsive-Styled-Google-Maps/main/Screenshot.png)
 
 The primary attributes of this plugin are as follows:
 - Address OR latitude/longitude is displayed.
