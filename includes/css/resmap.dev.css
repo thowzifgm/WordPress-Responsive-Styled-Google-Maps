@@ -1,0 +1,103 @@
+/* Marker popup setting */
+.gm-style-iw {
+    overflow-y: hidden !important;
+    overflow-x: hidden !important;
+    color: #000 !important;
+    line-height: normal !important;
+}
+.gm-style img {
+    border: 0;
+    max-width: none !important;
+    -webkit-box-shadow: none !important;
+    -moz-box-shadow: none !important;
+    box-shadow: none !important;
+}
+.gmap_marker {
+    overflow-y: hidden !important;
+    overflow-x: hidden !important;
+}
+/* A small div that contains the address search field */
+.responsive-map #locationDiv {
+   margin-left: 7px;
+}
+/* The address search text box */
+.responsive-map #locationInput {
+    width: 290px;
+    margin: 2px;
+    font-size: 12px;
+    padding: 5px;
+    border: none;
+}
+/* Map images fix for themes using Bootstrap or custom themes */
+.responsive-map img {
+    width: auto !important;
+    max-width: none;
+    max-height: none;
+}
+/* Fix the compatibility with CalendarizeIt plugin which breaks maps layout */
+.gm-style .gm-style-iw {
+    margin: auto !important;
+}
+/* Make sure that themes do not set a max-width for elements inside the map; Google Maps do not work if max-width is set */
+.responsive-map * {
+    max-width: none !important;
+}
+
+/* Settings for the "locate me" button */
+#locatemeFirstChild {
+	background-color: #FFFFFF;
+	vertical-align: middle;
+	border: none;
+	outline: none;
+	width: 40px;
+	height: 40px;
+	border-radius: 2px;
+	box-shadow: '0 1px 4px rgba(0,0,0,0.3)';
+	cursor: pointer;
+	margin-right: 10px;
+	padding: 0px; 
+}
+
+#locatemeSecondChild {
+	background-color: #BBBBBB;
+	width: 20px;
+	height: 20px;
+    border-radius: 50%;
+    position: relative;
+    vertical-align: middle;
+    margin: auto;
+}
+
+#locatemeThirdChild {
+	background-color: #666666; 
+	width: 14px; 
+	height: 14px; 
+	position: absolute;
+    border-radius: 50%;
+    top: 50%;
+    left: 50%;
+    margin: -7px 0px 0px -7px;
+}
+/* You cand style here the marker popups */
+#resmap_popup {
+
+}
+/* Settings for mobile devices */
+@media (max-width: 600px) { 
+    .responsive-map #locationInput {
+         width: 96%;
+    }
+    .responsive-map #locationDiv {
+         width: 83%;
+    }
+    #resmap_popup {
+    	display: inline-block !important;
+	    width: auto !important;
+	    max-width: 100% !important;
+	    padding-top: 14px !important;
+    }
+    #resmap_popup img {
+    	max-width: 100% !important;
+    	padding-bottom: 10px;
+    }
+}

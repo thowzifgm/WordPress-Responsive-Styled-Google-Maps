@@ -1,0 +1,127 @@
+/* The labels and controls settings */
+#resmap-table {
+    table-layout: fixed;
+    border-spacing: 5px;
+}
+#resmap-table, input[type="text"], textarea, select {
+    font: 13px "Open Sans", sans-serif !important;
+    color: #333333;
+}
+input[type="text"], textarea, select {
+    color: #333333;
+}
+h2 {
+    padding-top: 0 !important;
+    margin-top: 0 !important;
+}
+/* The settings for the code block with generated map code */
+#resmap-shortcode {
+    white-space: pre-wrap; /* css-3 */
+    white-space: -moz-pre-wrap; /* Mozilla, since 1999 */
+    white-space: -pre-wrap; /* Opera 4-6 */
+    white-space: -o-pre-wrap; /* Opera 7 */
+    word-wrap: break-word; /* Internet Explorer 5.5+ */
+    background-color: #2F343A;
+    color: #eeeeee;
+    margin-top: 1px;
+    margin-bottom: 1px;
+    padding: 10px;
+    width: 600px;
+    height: 100%;
+    min-height: 100%;
+    font: 13px monospace !important;
+    line-height: 150% !important;
+}
+.preheader {
+    background-color: #2F343A;
+    color: #eeeeee;
+    padding: 10px;
+    font-weight: bold;
+    border-bottom: 1px solid #CCCCCC;
+    font-size: 14px;
+    margin-top: 20px;
+    width: 580px;
+    text-align: center;
+}
+/* Settings for the select boxes and controls from map generator form */
+select#style {
+    font-weight: bold !important;
+    width: 120px; 
+    background-color: #eeeeee;
+    border: 1px solid #0074A2;
+}
+select#maptype, select#refresh {
+    width: 120px;   
+}
+.info {
+    font-style: italic;
+    color: #666666;
+    font-size: 12px;
+}
+label img {
+    margin-left: 1px !important;
+    padding-left: 1px !important;
+}
+#resmap-shortcode {
+    line-height: 1.5em; 
+}
+#resmap-table td {
+    white-space: nowrap;
+}
+#resmap-table textarea#address, textarea#rsdescription {
+    width: 100% !important;
+}
+#resmap-table textarea#iconurl {
+    width: 96% !important;
+}
+/* Color picker */
+div.colorPicker-picker {
+    height: 23px !important;
+    width: 118px !important;
+    padding: 5px 0 0 5px  !important;
+    border: 1px solid #ccc;
+    background: url(../img/arrow.gif) no-repeat bottom right;
+    cursor: pointer;
+    font-weight:bold;
+    text-align: left;
+    position: absolute;
+    display: inline;
+}
+div.colorPicker-palette {
+    width: 128px;
+    position: absolute;
+    border: 1px solid #2F343A;
+    background-color: #EFEFEF;
+    padding: 2px;
+    z-index: 9999;
+}
+div.colorPicker_hexWrap {
+    width: 100%; 
+    float:left; 
+}
+div.colorPicker_hexWrap label {
+    font-size: 95%; 
+    color: #2F2F2F; 
+    margin: 5px 2px; 
+    width: 25%;
+}
+div.colorPicker_hexWrap input {
+    margin: 5px 2px; 
+    padding: 0; 
+    font-size: 95%; 
+    border: 1px solid #000; 
+    width: 65%; 
+}
+div.colorPicker-swatch {
+    height: 12px;
+    width: 12px;
+    border: 1px solid #000;
+    margin: 2px;
+    float: left;
+    cursor: pointer;
+    line-height: 12px;
+}
+.button-resmap {
+    width: 146px;
+    text-align: center;
+}
